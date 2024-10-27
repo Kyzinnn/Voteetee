@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: radial-gradient(circle at center, #5b3a29, #3e261d); /* Galaxy-inspired brown gradient */
+    color: white; /* Text color */
+    text-align: center;
+    padding: 50px;
+    min-height: 100vh; /* Full height */
+    background-size: cover; /* Ensure the background covers the entire area */
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+form {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    border: none; /* Remove border */
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    color: white; /* Text color */
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Placeholder color */
+}
+
+button {
+    background-color: #8a2be2; /* Purple button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #7a1cbe; /* Darker shade on hover */
+}
+
+a {
+    color: #ffeb3b; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
